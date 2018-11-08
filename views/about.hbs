@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Some Website</title>
+
+  </head>
+  <body>
+    {{> header}}
+      {{!-- we use {{> header}} handlebars for pageTitle to pass in info from server.js via the header.hbs partial file--}}
+    <p>Some text here</p>
+
+    {{> footer}}
+      {{!-- we use {{> footer}} handlebars for footer to pass in info from server.js via the footer.hbs partial file--}}
+  </body>
+
+</html>
